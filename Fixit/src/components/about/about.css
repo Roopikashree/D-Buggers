@@ -1,0 +1,29 @@
+.about {
+  margin-bottom: 10px;
+}
+.about .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.about p {
+  font-size: 17px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+  .about .container {
+    flex-direction: column;
+  }
+  .about p {
+    padding: 0;
+  }
+  .about .container img {
+    margin: 50px;
+    width:max-content;
+  }
+}
+.right-row img{
+  width:150%;
+}
